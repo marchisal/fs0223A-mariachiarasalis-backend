@@ -1,6 +1,6 @@
-package com.epicode;
+package com.lezione3_esercizio2;
 
-public class Main_Project {
+public class Main2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
