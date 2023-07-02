@@ -39,17 +39,17 @@ public class Main3 {
 		}
 		sc.close();
 	}
-//	
-//	public static void contoAllaRovescia() {
-//		System.out.println("Inserisci un numero ");
-//		
-//		Scanner sc = new Scanner(System.in);
-//		int n = sc.nextInt();
-//		
-//		for(int i = n; i >= 0; i-- ) {
-//			System.out.println(i);
-//		}
-//		
-//	}
+	
+	public static void contoAllaRovescia() {
+		System.out.println("Inserisci un numero ");
+		
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int i = n; i >= 0; i-- ) {
+			System.out.println(i);
+		}
+		
+	}
 
 }
