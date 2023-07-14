@@ -89,12 +89,14 @@ public class Archivio {
 	}
 	
 	
-//	public static Archivio readArchivio() throws IOException{
-//		File archivioFile  = new File("Archivio/archivio.txt");
-//		String readFileToString = FileUtils.readFileToString(archivioFile, "UTF-8");
-//		String[] splitElementiB = readFileToString.split("#");
-//		ElementiB elementib = new Libro(Integer.valueOf(splitElementiB[0]), splitElementiB[1], splitElementiB[2], splitElementiB[3], splitElementiB[4], splitElementiB[5]);
-//		return elementib;
-//	}
+	public static Archivio readArchivio() throws IOException{
+		File archivioFile  = new File("Archivio/archivio.txt");
+		String readFileToString = FileUtils.readFileToString(archivioFile, "UTF-8");
+		String[] splitElementiB = readFileToString.split("#");
+		ElementiB elementib = new Libro(Integer.valueOf(splitElementiB[0]), splitElementiB[1], splitElementiB[2], splitElementiB[3], splitElementiB[4], splitElementiB[5]);
+		return elementib;
+	}
+	
+	//stessa posizione dei costruttori
 	
 }
